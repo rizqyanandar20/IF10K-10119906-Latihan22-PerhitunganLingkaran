@@ -45,9 +45,9 @@ public class IF10K10119906Latihan22PerhitunganLingkaran {
         
         DecimalFormat DF = new DecimalFormat("#.##");
         System.out.println("\n=====Hasil Perhitungan Lingkaran=====");
-        System.out.printf("Jari jari lingkaran \t= %s%n", DF.format(njariJari));
-        System.out.printf("Luas Lingkaran\t\t= %s%n", DF.format(nLuas));
-        System.out.printf("Keliling Lingkaran\t= %s%n", DF.format(nKeliling));
+        System.out.printf("Jari jari lingkaran \t= %s"+" cm%n", DF.format(njariJari));
+        System.out.printf("Luas Lingkaran\t\t= %s"+" cm%n", DF.format(nLuas));
+        System.out.printf("Keliling Lingkaran\t= %s"+" cm%n", DF.format(nKeliling));
     }
     
 }
